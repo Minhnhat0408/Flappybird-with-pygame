@@ -71,7 +71,6 @@ class Bird:
         win.blit(rotated_image, new_rect.topleft)
 
     def move(self):
-        if
         self.y -= (self.jumpspd * 5+5 + abs(self.jumpspd)) * 0.2
         self.jumpspd -= 2
         if not self.hit:
